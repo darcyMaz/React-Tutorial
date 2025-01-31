@@ -33,3 +33,8 @@
   margin: 40px auto;
   padding: 20px;
 }
+.newblogbutton {
+  color: white;
+  background-color: #f1356d;
+  border-radius: 8px;
+}
