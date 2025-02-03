@@ -1,14 +1,11 @@
 const BlogList = (props) => {
-const blogs = props.blogs 
-const title = props.title
-const handleHide = props.handleHide
-const handleShowAll = props.handleShowAll
-
-
+    
+    const blogs = props.blogs 
+    const title = props.title
+    const handleHide = props.handleHide
+    const handleShowAll = props.handleShowAll
 
     return ( 
-
-
         <div className="blog-list">
             <h2> {title} </h2>
             <button className="visibility-button" onClick={() => handleShowAll()}>  Show all blogs.  </button>
@@ -20,7 +17,6 @@ const handleShowAll = props.handleShowAll
                 </div>
             ))}
         </div>
-
      );
 }
  
