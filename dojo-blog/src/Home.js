@@ -4,13 +4,8 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
-    const { data: blogs, setData: setBlogs, isPending, error} = useFetch('http://localhost:8000/blogs')
+    const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
 
-    
-    const handleHide = (id) => {
-        const newBlogs = blogs.filter(blog => blog.id !== id)
-        setBlogs(newBlogs)
-    }
 
     return (
         <div className="home">
@@ -19,10 +14,7 @@ const Home = () => {
             
             {
                 blogs && 
-                <BlogList blogs={blogs} title="All Blogs" 
-                  handleHide={handleHide} 
-                  handleShowAll={() => window.location.reload()}
-                />
+                <BlogList blogs={blogs} title="All Blogs" />
             }
         </div>
     )
