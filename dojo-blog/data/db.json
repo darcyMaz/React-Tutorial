@@ -1,16 +1,16 @@
 {
-    "blogs": [
-        {
-            "title": "My First Blog!",
-            "body": "This is the body of my first blog. Enjoy the website!",
-            "author": "Darcy Mazloum",
-            "id": 1 
-        },
-        {
-            "title": "An update about my life.",
-            "body": "I am still building this site! I suppose it's hardly a life update if it happened 30 second after the previous blog.",
-            "author": "Darcy Mazloum",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My First Blog!",
+      "body": "This is the body of my first blog. Enjoy the website!",
+      "author": "Darcy Mazloum",
+      "id": "1"
+    },
+    {
+      "title": "An update about my life.",
+      "body": "I am still building this site! I suppose it's hardly a life update if it happened 30 second after the previous blog.",
+      "author": "Darcy Mazloum",
+      "id": "2"
+    }
+  ]
 }
